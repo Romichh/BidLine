@@ -86,7 +86,7 @@ public class GoogleMapsRepair extends AppCompatActivity {
         btFind.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String url = "https://maps.googleapis.com/maps/api/place/nearbysearch/json" + "?location=" + currentLat + "," + currentLong + "&radius=5000" + "&types=" + "car_repair" + "&sensor=true" + "&key=" + "AIzaSyBuD82s8GfpcSJJJ9mqbqsC0q1QlL737iI";
+                String url = "https://maps.googleapis.com/maps/api/place/nearbysearch/json" + "?location=" + currentLat + "," + currentLong + "&radius=5000" + "&types=" + "car_repair" + "&sensor=true" + "&key=" + "YOUR_KEY";
                 new PlaceTask().execute(url);
             }
         });
