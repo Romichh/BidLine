@@ -17,7 +17,7 @@
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyBuD82s8GfpcSJJJ9mqbqsC0q1QlL737iI" />
+            android:value="YOUR_KEY" />
 
         <activity android:name=".FoodActivity" />
         <activity android:name=".EmergencyActivity" />
